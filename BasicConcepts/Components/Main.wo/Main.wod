@@ -1,0 +1,13 @@
+Hi : WOHyperlink {
+	action = sayHi;
+}
+logout : WOHyperlink {
+	action = logout;
+}
+
+maincount : WOString {
+	value = application.mainPageCounter;
+	valueWhenEmpty = "no value";
+	escapeHTML = false;
+	numberformat = "$#,##0";
+	}
